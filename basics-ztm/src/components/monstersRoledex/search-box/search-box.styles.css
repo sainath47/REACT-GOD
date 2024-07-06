@@ -1,0 +1,16 @@
+.search-box{
+    -webkit-appearence : none;
+    border : none;
+    outline: none;
+    padding: 10px;
+    width: 150px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+/* .card-list{
+    background-color: red;
+}
+ the local file effect every file in the project, the above css will work on card-list even-though it is not imported     
+
+*/

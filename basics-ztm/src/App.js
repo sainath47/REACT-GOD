@@ -3,9 +3,10 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 // Import your StateBasics component
 import StateBasics from './components/StateBasics';
-import MonstersRoledex from './components/MonstersRoledex';
+import MonstersRoledex from './components/monstersRoledex/MonstersRoledex';
 
 function App() {
+
   return (
     <Router>
       <div>
