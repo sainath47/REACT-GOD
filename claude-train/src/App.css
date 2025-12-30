@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600");
+
+/* Remove Default Margin and paddings for all HTML elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* content wont be going out of the parent box */
+}
+
+/* CSS variables to use any where in website (if you want to change theme one change here will apply to entire website) */
+:root {
+  --heading: #393A56;
+  --text: #7E7F85;
+  --theme: #FD5353;
+  --bg: #F7F8F9;
+  --footerBg: #415161;
+}
+
+body {
+  font-family: 'Poppins';
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--heading)
+}
+
+p {
+  color: var(--text);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* === Header=== */
+
+.container {
+  width: 80%;
+  margin: auto;
+  /* background: rebeccapurple; */
+}
+
+header {
+  background: var(--bg);
+  width: 100vw;
+  height: 90vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar .navlinks {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  /* instead of width 50% */
+  /* he did  */
+  align-items: center;
+}
+
+/* instead of width 50% which i did above*/
+/* he did  */
+/* 
+  .navlinks li{
+    margin: 0 20px
+  } */
+
+.navlinks img {
+  width: 50px;
+}
+
+.navlinks li a {
+  color: var(--heading);
+}
+
+.header-content {
+  display: flex;
+  /* background-color: rebeccapurple; */
+  align-items: center;
+}
+
+.header-content img {
+  max-width: 90%;
+}
+
+.header-info {
+  flex: 60%
+}
+
+.line {
+  width: 150px;
+  height: 4px;
+  background: var(--theme);
+  border-radius: 5px;
+}
+
+.header-info h1 {
+  font-size: 50px
+}
+
+.header-info h3,
+.header-info p {
+  margin: 15px 0;
+}
+
+.ctn {
+  padding: 10px 16px;
+  background: var(--theme);
+  color: whitesmoke;
+  border-radius: 15px;
+  border: none;
+  font-size: 16px;
+  margin-top: 30px;
+
+}
+
+#categories {
+  display: flex;
+  margin-top: 80px;
+  justify-content: space-between;
+}
+
+.category {
+  text-align: center;
+}
+
+#featured-products {
+  margin: 80px auto;
+}
+
+.section-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 60px auto;
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product {
+  text-align: center;
+}
+
+#offer {
+  margin: 80px auto;
+  background: var(--bg);
+}
+
+#offer .container {
+  display: flex;
+
+}
+
+.offer-content {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.offer-content h1 {
+  font-size: 50px;
+}
+
+#offer img {
+  max-width: 600px;
+}
+
+.offer-content button.ctn {
+  width: 35%;
+}
+
+#featured {
+  margin: 150px auto;
+}
+
+#featured .container {
+
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  background: var(--footerBg);
+
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 0;
+  align-items: center;
+}
+
+footer p,
+footer li {
+  color: #d8d8d8
+}
+
+footer h3 {
+  color: whitesmoke
+}
+
+.footer-content .col {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.copyright {
+  padding: 10px 0;
+  text-align: center;
+}
+
+
+/* =========For Mobile Devices========*/
+
+@media(max-width:750px){
+header{
+display: hidden;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+=========== Icon's =============
+black star  : &#9733;
+white star  : &#9734;
+Arrow       : &#8594;	
+
+
+============ Google Font  ============
+Poppins : https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600
+
+
+=========== Other Videos =============
+Complete Responsive Travel Website : https://youtu.be/ZdJSHEczi_0
+
+=========== Social =============
+Yotube      : https://www.youtube.com/c/GowthamTirri
+Instagram   : https://www.instagram.com/gowthamtirri */
